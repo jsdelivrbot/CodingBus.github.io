@@ -3,10 +3,9 @@ function setup() {
 }
 
 function draw() {
-  if (mouseIsPressed) {
-    fill(0);
-  } else {
-    fill((mouseX*mouseY)%255);
-  }
-  ellipse(mouseX, mouseY, 80, 80);
+	fill(180,30,60)
+	textSize(40);
+	textStyle(NORMAL);
+	text('Love You',displayHeight/2,displayWidth/2)
+
 }
